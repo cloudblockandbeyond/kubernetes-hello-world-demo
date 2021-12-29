@@ -1,0 +1,12 @@
+version: '3.6'
+
+services: 
+
+  kubernetes-hello-world-demo: 
+    build: 
+      context: 'kubernetes-hello-world-demo'
+      dockerfile: Dockerfile
+    image: 'cloudblockandbeyond/image_kubernetes-hello-world-demo:1.0.0'
+    container_name: 'container_kubernetes-hello-world-demo'
+    ports:
+      - "5300:80/tcp"

@@ -1,0 +1,9 @@
+*/bin/
+*/obj/
+.git/
+.vs/
+.vscode/
+.gitignore
+Dockerfile
+LICENSE
+README.md
