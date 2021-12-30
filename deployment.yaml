@@ -12,7 +12,7 @@ spec:
     spec: 
         containers: 
           - name: container-kubernetes-hello-world-demo
-            image: cloudblockandbeyond/image_kubernetes-hello-world-demo:1.0.0
+            image: docker.io/cloudblockandbeyond/image-kubernetes-hello-world-demo:1.0.0
             imagePullPolicy: Always
             ports:
               - name: http
